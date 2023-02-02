@@ -1,0 +1,107 @@
+{
+  "level": [
+    {
+      "id": 1,
+      "exercice": 1,
+      "characters": "g h",
+      "length": 40
+    },
+    {
+      "id": 2,
+      "exercice": 2,
+      "characters": "fg hj",
+      "length": 40
+    },
+    {
+      "id": 3,
+      "exercice": 3,
+      "characters": "dfg hjk",
+      "length": 50
+    },
+    {
+      "id": 4,
+      "exercice": 4,
+      "characters": "sdfg hjkl",
+      "length": 50
+    },
+    {
+      "id": 5,
+      "exercice": 5,
+      "characters": "qsdfg hjklm",
+      "length": 50
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "nom": "Tino",
+      "mdp": "Tino1234"
+    },
+    {
+      "nom": "Tony",
+      "mdp": "Tony1234",
+      "id": 2
+    },
+    {
+      "nom": "ikaris",
+      "mdp": "Ikaris12345",
+      "id": 3
+    }
+  ],
+  "score": [
+    {
+      "id": 1,
+      "timer": 24,
+      "precision": 83,
+      "erreur": 6,
+      "Meilleurscore": 329,
+      "idUser": 1,
+      "idLvl": 1
+    },
+    {
+      "timer": 30,
+      "precision": 93,
+      "erreur": 4,
+      "Meilleurscore": 300,
+      "idUser": 3,
+      "idLvl": 1,
+      "id": 2
+    },
+    {
+      "timer": 16,
+      "precision": 85,
+      "erreur": 5,
+      "Meilleurscore": 488,
+      "idUser": 3,
+      "idLvl": 1,
+      "id": 3
+    },
+    {
+      "timer": 16,
+      "precision": 85,
+      "erreur": 5,
+      "Meilleurscore": 488,
+      "idUser": 3,
+      "idLvl": 1,
+      "id": 4
+    },
+    {
+      "timer": 14,
+      "precision": 18,
+      "erreur": 32,
+      "Meilleurscore": 0,
+      "idUser": 3,
+      "idLvl": 1,
+      "id": 5
+    },
+    {
+      "timer": 49,
+      "precision": 75,
+      "erreur": 9,
+      "Meilleurscore": 133,
+      "idUser": 3,
+      "idLvl": 1,
+      "id": 6
+    }
+  ]
+}

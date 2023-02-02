@@ -1,0 +1,29 @@
+{
+  "level": [
+    {
+      "exercice": 1,
+      "characters": "g h",
+      "length": 20
+    },
+    {
+      "exercice": 2,
+      "characters": "fg hj",
+      "length": 20
+    },
+    {
+      "exercice": 3,
+      "characters": "dfg hjk",
+      "length": 20
+    },
+    {
+      "exercice": 4,
+      "characters": "sdfg hjkl",
+      "length": 20
+    },
+    {
+      "exercice": 5,
+      "characters": "qsdfg hjklm",
+      "length": 20
+    }
+  ]
+}
