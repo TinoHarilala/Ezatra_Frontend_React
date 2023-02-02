@@ -131,7 +131,9 @@ export default class TypingClub extends React.Component {
             idlvl : level
         })
             .then((data : any)=>{
-                console.log(data)
+                this.setState({
+                    meilleurScore : data.data.point
+                })
             })
     }
 
@@ -498,7 +500,7 @@ export default class TypingClub extends React.Component {
     }
 
     addScore = async ()=> {
-      /*  const {timer , precision , erreur, score, idLvl,meilleurScore, dataScore} = this.state
+       const {timer , precision , erreur, score, idLvl,meilleurScore, dataScore} = this.state
         const userId = JSON.parse(localStorage.getItem('userId')!)
         const token = JSON.parse(localStorage.getItem('token')!)
         
@@ -513,10 +515,9 @@ export default class TypingClub extends React.Component {
 
         try {
             await api.post('/scores', scr);
-            console.log('add passed')
             this.getDataScore()
         } catch (error : any) {
             console.log(`Error: ${error.message}`)
-        }*/
+        }
     }
 }
